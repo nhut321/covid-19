@@ -1,0 +1,66 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: #ecf0f5;
+}
+
+header h1 {
+	text-align: center;
+}
+
+.select-region {
+	width: 20rem;
+}
+
+.card-main__item {
+	margin: 0 2rem;
+	width: 15rem;
+}
+
+.card-main__item-icon {
+	font-size: 30px;
+	padding: 1rem;
+}
+
+.card-main__item-info p {
+	margin: 0;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.summary {
+	position: relative;
+	left: 50%;
+	right: 50%;
+	text-align: center;
+	transform: translate(-50%);
+}
+
+.summary span {
+	font-size: 25px
+}
+
+.summary span:first-child {
+	font-weight: bold;
+}
+
+
+@media screen and (max-width: 800px) {
+  .card-main {
+  	flex-direction: column;
+  }
+
+  .select-region-form__button {
+  	width: 100%;
+  }
+
+  .card-main__item {
+  	margin-bottom: 1rem;
+  }
+
+}
